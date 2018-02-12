@@ -236,11 +236,18 @@ I am enthusiastic young lady passionate about the field of programming. I am wel
       
 
       <!-- Add comment section to blog -->
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-  
+       
+        <form action="mailto:shameerarakiep@gmail.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name"><br>
+          E-mail:<br>
+          <input type="text" name="mail"><br>
+          Comment:<br>
+          <input type="text" name="comment" size="50"><br><br>
+          <button class="w3-button w3-black w3-right w3-section" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </form>
     </div>
   </div>
 </div>
